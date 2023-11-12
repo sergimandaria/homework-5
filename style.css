@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*header*/
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+
+header h3 {
+    font-family: inter;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 1);
+}
+
+header h1 {
+    font-family: inter;
+    font-size: 54px;
+    color: rgba(40, 40, 40, 1);
+    margin-top: 4px;
+}
+
+header p {
+    margin-top: 16px;
+    font-family: inter;
+    font-size: 20px;
+    color: rgba(95, 105, 128, 1);
+    line-height: 35px;
+}
+
+/*main*/
+.profiles {
+    margin-top: 48px;
+    display: flex;
+    padding: 0 52px;
+}
+
+.profiles .pic-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.pic-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 32px;
+}
+
+.pic-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 32px;
+}
+
+.pic-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 32px;
+}
+
+.name {
+    margin-top: 16px;
+    font-family: inter;
+    font-size: 18px;
+    color: rgba(40, 40, 40, 1);
+    line-height: 30px;
+}
+
+.job {
+    font-family: inter;
+    font-size: 14px;
+    color: rgba(62, 62, 89, 1);
+    line-height: 22px;
+    margin-top: 4px;
+}
+
+.info {
+    font-family: inter;
+    font-size: 14px;
+    color: rgba(62, 62, 89, 1);
+    line-height: 22px;
+    margin-top: 8px;
+}
+
+.box {
+    width: 36px;
+    height: 36px;
+    ;
+    background-color: rgba(242, 244, 247, 1);
+    border-radius: 100px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.icons {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.icons .left {
+    margin-left: 16px;
+}
+
+/*footer*/
+footer {
+    height: 455px;
+    background-color: rgba(83, 83, 83, 0.33);
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-1 p {
+    font-size: 14px;
+    margin-top: 32px;
+    line-height: 16.94px;
+    font-family: inter;
+    color: rgba(83, 83, 83, 1);
+    font-weight: 400;
+}
+
+.info-1 .social {
+    margin-top: 28px;
+}
+
+.info-1 .social .soc {
+    margin-left: 16px;
+}
+
+.links h1 {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(30, 30, 30, 1);
+}
+
+.links .nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 71px;
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+    color: rgba(83, 83, 83, 1);
+}
+
+.nav .nav-1 {
+    margin-top: 25px;
+}
+
+.services-main h1 {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(30, 30, 30, 1);
+}
+
+.services-main .services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 71px;
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+    color: rgba(83, 83, 83, 1);
+}
+
+.services .serv-1 {
+    margin-top: 25px;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+
+.languages h1 {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(30, 30, 30, 1);
+}
+
+.languages .picture {
+    margin-top: 72.45px;
+}
